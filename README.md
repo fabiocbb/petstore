@@ -1,8 +1,8 @@
 # Petstore challenge project
 
-Petstore is built with a microservice architectural style. We have 3 microservices (user, store, pet); each one is a Laravel Lumen projects with its own database. We have then an api gateway tha will maintain the connection with the web services (not implemented).
+Petstore is built with a microservice architectural style. We have 3 microservices (user, store, pet); each one is a Laravel Lumen project with its own database. We have then an api gateway tha will maintain the connection with the microservices (not implemented).
 
-The pet microservicet has 5 working routes, models, a controller, database seeder and one test file PetTest.php (run './vendor/bin/phpunit' from pet folder)
+The pet microservicet has 5 working routes, models, a controller, a database seeder and one test file PetTest.php (run './vendor/bin/phpunit' from pet folder)
 There is a Postman collection to test the pet routes
 
 Installation (pet microservice)
